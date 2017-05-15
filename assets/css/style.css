@@ -419,15 +419,15 @@ ul#paginationBox {
   padding: 0px;
 }
 
-/*Apply background to main consection body*/
- #myevents-body {
+/*Apply background to main consection body
+#myevents-body {
   background: url("../images/bg-pattern.png"), #7b4397;
-  /* fallback for old browsers */
+  fallback for old browsers 
   background: url("../images/bg-pattern.png"), -webkit-linear-gradient(to left, #000000, #dc2430);
-  /* Chrome 10-25, Safari 5.1-6 */
+  Chrome 10-25, Safari 5.1-6 
   background: url("../images/bg-pattern.png"), linear-gradient(to left, #000000, #dc2430);
   background-size: cover;
- }
+ }*/
 
  #myevents-section, #myevents-container{
   width: 100%;
@@ -473,5 +473,12 @@ ul#paginationBox {
 #modalEventKeyGroup, #modalUserKeyGroup {
   display: none;
 }
+
+#myPagerDiv {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 
 /*Chuck's stylings end==================================================================================*/
