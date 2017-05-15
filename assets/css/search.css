@@ -1,0 +1,29 @@
+
+.pageButton {
+     color: #337AB7;
+}
+.pageButton:hover {
+     color: #23527C;
+}
+div#searchResultsPanel {
+    overflow-x: scroll;
+}
+
+
+#searchResultTable th:nth-child(3), 
+#searchResultTable td:nth-child(3),
+#searchResultTable th:nth-child(5), 
+#searchResultTable td:nth-child(5),
+#searchResultTable th:nth-child(8),
+#searchResultTable td:nth-child(8),
+#searchResultTable th:nth-child(13), 
+#searchResultTable td:nth-child(13),
+#searchResultTable th:nth-child(14), 
+#searchResultTable td:nth-child(14),
+#searchResultTable th:nth-child(15), 
+#searchResultTable td:nth-child(15),
+#searchResultTable th:nth-child(17),
+#searchResultTable td:nth-child(17)
+  {
+  display: none;
+}

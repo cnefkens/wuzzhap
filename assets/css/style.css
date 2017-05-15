@@ -1,0 +1,477 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+p {
+  font-size: 12px;
+}
+header {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modal-header {
+  background: steelblue;
+  font-weight: bold;
+}
+.panel-primary>.panel-heading {
+    background-color: steelblue;
+    border-color: white;
+}
+h1#sliderText {
+    font-size: 41px;
+    font-weight: 400;
+}
+#eventPanelHeader {
+    background: steelblue !important;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.normalText {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+footer ul li a {
+    font-size: 14px;
+}
+footer p {
+    font-size: 14px;
+}
+a {
+  font-size: 14px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+nav#mainNav {
+    background: rgba(0,0,0,.8);
+}
+a.navbar-brand.page-scroll {
+    font-size: 44px;
+    font-weight: bold !important;
+    color: steelblue !important;
+}
+.panel {
+  background: rgba(0,0,0,.7);
+}
+.panel-body {
+  background: rgba(0,0,0,.7);
+}
+.panel-primary {
+  background: rgba(0,0,0,.7);
+  border-color: white;
+}
+.panel-default>.panel-heading {
+  color: #333;
+  border-color: white;
+  background: steelblue;
+}
+.checkbox label, .radio label {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+label {
+  color: white !important;
+  font-size: 17px;
+  font-weight: bold;
+}
+.panel-title {
+    color: white;
+    font-size: 18px;
+}
+h4#modalTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+.btn {
+  background-color: steelblue;
+  border: none;
+  font-weight: bold;
+}
+.btn-default {
+    color: white;
+    background-color: steelblue;
+    border: none;
+    font-weight: bold;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: green;
+    border-color: #398439;
+}
+div#regPageOne {
+    background: rgba(0,0,0,.7);
+    border-color: white;
+}
+div#regPageTwo {
+    background: rgba(0,0,0,.7);
+    border-color: white;
+}
+div#mainSlider {
+    background-color: rgba(0,0,0,.7);
+    height: 480px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 45px;
+}
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+.device {
+    margin-top: 307px;
+}
+input {
+    color: black;
+}
+.modal-header {
+    color: black;
+    font-weight: bold;
+}
+label {
+    color: black;
+}
+
+
+div#col-myevents-header {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+div#eventPanelBody {
+    color: black;
+}
+
+/*===============================================Dashboard CSS*/
+button#updateProfile {
+    float: right;
+    margin-top: 21px;
+}
+div#paneltitleSearch {
+    color: #333;
+    background: steelblue;
+    border: solid 1px;
+    border-color: white;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: darkgray;
+    opacity: 1;
+}
+.modal-content {
+    background: rgba(0,0,0,.7);
+}
+td.col-event-url {
+    max-width: 199px;
+    overflow: hidden;
+}
+.modal-content {
+    border: solid 1px;
+}
+.modal-footer {
+    border: none;
+}
+div#eventPanelBody {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: solid 1px;
+}
+.thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 155px;
+}
+.thumbnail {
+  background-color: steelblue;
+}
+.recText {
+  font-size: 16px;
+  height: 31px;
+  text-align: center;
+  font-weight: bold;
+}
+.infotext{
+  line-height: .1;
+  text-align: center;
+  font-weight: bold;
+}
+.row {
+  margin-left: 0;
+}
+div#upcomingSlider {
+    margin-left: 90px;
+}
+div#sidebarProfile {
+    margin-left: -89px;
+}
+div#col-myEvents-main-dash {
+    width: 990px;
+}
+h2 {
+  font-weight: bold;
+}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top : 50px;
+}
+/* The controlsy */
+.carousel-control {
+    left: -12px;
+    height: 40px;
+  width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+  right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+
+ul.thumbnails.image_picker_selector {
+  overflow: auto;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; 
+}
+ul.thumbnails.image_picker_selector ul {
+  overflow: auto;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px; 
+}
+ul.thumbnails.image_picker_selector li.group_title {
+  float: none; 
+}
+ul.thumbnails.image_picker_selector li {
+  margin: 0px 12px 12px 0px;
+  float: left; 
+}
+ul.thumbnails.image_picker_selector li .thumbnail {
+  padding: 6px;
+  border: 1px solid #dddddd;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+}
+ul.thumbnails.image_picker_selector li .thumbnail img {
+  -webkit-user-drag: none; 
+}
+ul.thumbnails.image_picker_selector li .thumbnail.selected {
+  background: #0088cc; 
+}
+/*===============================================Dashboard CSS END*/
+
+/*===============================================Search Page CSS*/
+.searchbtn {
+    margin-bottom: 13px;
+}
+
+div#eventPanel {
+    width: 990px;
+}
+
+ul#paginationBox {
+    padding: 0;
+    margin-top: 18px;
+    max-width: 96%;
+}
+#headerBar {
+    font-size: 14px;
+    color: lightblue;
+    font-style: italic;
+}
+#myevents-section, #myevents-container {
+    width: 108% !important;
+}
+/*===============================================Search Page CSS END*/
+/*Chuck's stylings start==================================================================================*/
+/*Center my events list header*/
+
+#eventPanelHeader {
+  background: darkgrey;
+  color: white;
+}
+
+#col-myevents-header {
+    margin-top: 100px;
+}
+
+#eventPanelBody {
+    color: black;
+}
+
+#myevents-h1, #myevents-header-content, #myevents-header-content-inner {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+#myevents-header-content{
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#myevents-section {
+  padding: 0px;
+}
+
+/*Apply background to main consection body*/
+ #myevents-body {
+  background: url("../images/bg-pattern.png"), #7b4397;
+  /* fallback for old browsers */
+  background: url("../images/bg-pattern.png"), -webkit-linear-gradient(to left, #000000, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: url("../images/bg-pattern.png"), linear-gradient(to left, #000000, #dc2430);
+  background-size: cover;
+ }
+
+ #myevents-section, #myevents-container{
+  width: 100%;
+ }
+
+/*Hide selected events table columns*/
+#eventTable th:nth-child(3), 
+#eventTable td:nth-child(3),
+#eventTable th:nth-child(5), 
+#eventTable td:nth-child(5),
+#eventTable th:nth-child(7), 
+#eventTable td:nth-child(7),
+#eventTable th:nth-child(8), 
+#eventTable td:nth-child(8),
+#eventTable th:nth-child(9), 
+#eventTable td:nth-child(9),
+#eventTable th:nth-child(11), 
+#eventTable td:nth-child(11),
+#eventTable th:nth-child(13), 
+#eventTable td:nth-child(13),
+#eventTable th:nth-child(15), 
+#eventTable td:nth-child(15), 
+#eventTable th:nth-child(17), 
+#eventTable td:nth-child(17), 
+#eventTable th:nth-child(19), 
+#eventTable td:nth-child(19), 
+#eventTable th:nth-child(20), 
+#eventTable td:nth-child(20),
+#eventTable th:nth-child(21), 
+#eventTable td:nth-child(21),
+#eventTable th:nth-child(22), 
+#eventTable td:nth-child(22),
+#eventTable th:nth-child(23), 
+#eventTable td:nth-child(23),
+#eventTable th:nth-child(24), 
+#eventTable td:nth-child(24)
+
+  {
+  display: none;
+}
+
+/*Hide event and user id fields on event detail modal form*/
+#modalEventKeyGroup, #modalUserKeyGroup {
+  display: none;
+}
+
+/*Chuck's stylings end==================================================================================*/
