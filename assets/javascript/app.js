@@ -1,11 +1,11 @@
 /// Initialize Firebase
-var config = {
-  apiKey: "AIzaSyChrgyWuMe56taDdK1C0XE_bwwbVMbYJaw",
-  authDomain: "wuzzhap-52639.firebaseapp.com",
-  databaseURL: "https://wuzzhap-52639.firebaseio.com",
-  projectId: "wuzzhap-52639",
-  storageBucket: "wuzzhap-52639.appspot.com",
-  messagingSenderId: "771715545257"
+  var config = {
+    apiKey: "AIzaSyArYEWdCSM4FYlkEN4JPN974FemDg059Wk",
+    authDomain: "wuzzhapcn.firebaseapp.com",
+    databaseURL: "https://wuzzhapcn.firebaseio.com",
+    projectId: "wuzzhapcn",
+    storageBucket: "wuzzhapcn.appspot.com",
+    messagingSenderId: "245727666698"
 };
 
 firebase.initializeApp(config);
